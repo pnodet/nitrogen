@@ -1,0 +1,32 @@
+{
+  "name": "@pnodet/nitrogen",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "keywords": [],
+  "license": "MIT",
+  "author": "pnodet",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "require": "./dist/cjs/index.cjs",
+      "import": "./dist/esm/index.mjs"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@nivalis/eslint-config": "^1.0.0",
+    "@nivalis/prettier-config": "^1.0.0",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "eslint": "8.52",
+    "prettier": "^3.0.3",
+    "rollup": "^4.4.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-node-externals": "^6.1.2",
+    "typescript": "^5.2.2"
+  },
+  "prettier": "@nivalis/prettier-config"
+}
