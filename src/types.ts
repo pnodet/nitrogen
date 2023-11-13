@@ -82,9 +82,7 @@ export type ShopifyCollection = {
 	updatedAt: string;
 };
 
-export type Collection = ShopifyCollection & {
-	path: string;
-};
+export type Collection = ShopifyCollection;
 
 export type ShopifyProduct = {
 	id: string;
