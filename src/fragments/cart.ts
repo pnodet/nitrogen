@@ -1,4 +1,4 @@
-import {productFragment} from './product';
+import {productFragment} from './product.js';
 
 export const cartFragment = /* GraphQL */ `
 	fragment cart on Cart {

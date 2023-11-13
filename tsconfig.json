@@ -5,8 +5,8 @@
     "target": "es2022",
     "lib": ["es2022", "dom", "dom.iterable"],
     "moduleDetection": "force",
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "resolveJsonModule": true,
     "strict": true,
     "noUncheckedIndexedAccess": true,
@@ -15,5 +15,6 @@
     "isolatedModules": true,
     "skipLibCheck": true
   },
+  "include": ["./src/**/*.ts"],
   "exclude": ["node_modules"]
 }

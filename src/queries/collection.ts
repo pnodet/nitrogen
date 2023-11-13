@@ -1,5 +1,5 @@
-import {productFragment} from '../fragments/product';
-import {seoFragment} from '../fragments/seo';
+import {productFragment} from '../fragments/product.js';
+import {seoFragment} from '../fragments/seo.js';
 
 const collectionFragment = /* GraphQL */ `
 	fragment collection on Collection {

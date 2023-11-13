@@ -1,4 +1,4 @@
-import {cartFragment} from '../fragments/cart';
+import {cartFragment} from '../fragments/cart.js';
 
 export const getCartQuery = /* GraphQL */ `
 	query getCart($cartId: ID!) {

@@ -1,4 +1,4 @@
-import {seoFragment} from '../fragments/seo';
+import {seoFragment} from '../fragments/seo.js';
 
 const pageFragment = /* GraphQL */ `
 	fragment page on Page {
