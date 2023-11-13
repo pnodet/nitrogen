@@ -194,4 +194,10 @@ export const getProducts = async ({
 	return reshapeProducts(removeEdgesAndNodes(res.body.data.products));
 };
 
-export * from './cart.js';
+export {
+	addToCart,
+	createCart,
+	getCart,
+	removeFromCart,
+	updateCart,
+} from './cart.js';
